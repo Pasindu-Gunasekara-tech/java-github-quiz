@@ -41,7 +41,7 @@ public class DashbordController {
 
         Parent root = null;
         try {
-            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/lk/pirate/demoFx/view/Customer.fxml")));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/lk/ijse/crud/view/Customer.fxml")));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -53,7 +53,7 @@ public class DashbordController {
     void navigateToItem(ActionEvent event) {
         Parent root = null;
         try {
-            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/lk/pirate/demoFx/view/Customer.fxml")));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/lk/ijse/crud/view/Customer.fxml")));
 
         } catch (Exception e) {
             e.printStackTrace();
