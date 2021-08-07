@@ -13,17 +13,17 @@ package lk.ijse.crud.model;
  */
 
 
-public class Customer {
+public class Item {
     private String name;
-    private String address;
-    private String telephone;
-    private String dOb;
+    private String price;
+    private String expDate;
+    private String qty;
 
-    public Customer(String name, String address, String telephone, String dOb) {
+    public Item(String name, String price, String expDate, String qty) {
         this.name = name;
-        this.address = address;
-        this.telephone = telephone;
-        this.dOb = dOb;
+        this.price = price;
+        this.expDate = expDate;
+        this.qty = qty;
     }
 
     public String getName() {
@@ -34,27 +34,27 @@ public class Customer {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public String getPrice() {
+        return price;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
-    public String getTelephone() {
-        return telephone;
+    public String getExpDate() {
+        return expDate;
     }
 
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
+    public void setExpDate(String expDate) {
+        this.expDate = expDate;
     }
 
-    public String getdOb() {
-        return dOb;
+    public String getQty() {
+        return qty;
     }
 
-    public void setdOb(String dOb) {
-        this.dOb = dOb;
+    public void setQty(String qty) {
+        this.qty = qty;
     }
 }
